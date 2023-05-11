@@ -1,13 +1,13 @@
-import Ame from 'ame-super-app-client';
+import Eitri from 'eitri-app-client';
 export default class More {
   // Esta função é responsável por abrir uma URL externa
   accessPortal = () => {
-    if (typeof Ame.openBrowser === 'function') {
+    if (typeof Eitri.openBrowser === 'function') {
       // Este método só aceita URL's seguras com protocolo HTTPS
-      Ame.openBrowser({ url: 'https://developer.eitri.calindra.com.br/' });
+      Eitri.openBrowser({ url: 'https://developer.eitri.calindra.com.br/' });
     } else {
       // Exibir um alerta ao usuário caso ele esteja com um aplicativo desatualizado.
-      Ame.alert({
+      Eitri.alert({
         title: 'Ops',
         description: 'Parece que o seu Aplicativo do EITRI não está atualizado.',
         buttonText: 'OK',
