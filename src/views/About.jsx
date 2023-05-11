@@ -1,6 +1,6 @@
 <Window>
     <Group>
-        <Circle icon={require('../assets/images/icon_ame.svg')} />
+        <Circle icon={require('../assets/images/icon_eitri.svg')} />
         <Spacing size="sm" />
         <Subtitle fontSize="xs" textAlign="center" color="neutralcolor-darkest">Detalhes desta versão</Subtitle>
         <View>
