@@ -1,4 +1,4 @@
-import Ame from "ame-super-app-client";
+import Eitri from "eitri-app-client";
 
 export default class Home {
   state = {
@@ -16,6 +16,6 @@ export default class Home {
     ]
   };
   navigateTo = (item) => {
-    Ame.navigation.navigate(item.to);
+    Eitri.navigation.navigate(item.to);
   };
 }
