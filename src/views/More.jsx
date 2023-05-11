@@ -1,5 +1,5 @@
 <Window>
-  <Circle icon={require('../assets/images/icon_ame.svg')}/>
+  <Circle icon={require('../assets/images/icon_eitri.svg')}/>
   <Subtitle fontSize="xs" textAlign="center" color="neutralcolor-darkest">Detalhes desta versão</Subtitle>
   <Spacing size="md"/>
   <View>
