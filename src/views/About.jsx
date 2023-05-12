@@ -6,11 +6,9 @@
         <View>
             <Subtitle textAlign="center" fontSize="xxxs" color="neutralcolor-darkest">Este mini-app foi desenvolvido utilizando as seguintes versões:</Subtitle>
             <Spacing size="sm" />
-            <Paragraph textAlign="center">Versão da biblioteca de componentes: 2.24.1
-</Paragraph>
+            <Paragraph textAlign="center">Versão da biblioteca de componentes: ###COMPONENTS_LIBRARY_VERSION_HIGHLIGHTER###</Paragraph>
             <Spacing size="sm" />
-            <Paragraph textAlign="center">Versão da API de Super Client: 2.27.0
-</Paragraph>
+            <Paragraph textAlign="center">Versão da API de Super Client: ###SUPER_APP_CLIENT_VERSION_HIGHLIGHTER###</Paragraph>
         </View>
     </Group>
 </Window>
