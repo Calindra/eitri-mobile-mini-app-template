@@ -1,6 +1,5 @@
 <Window>
     <HeaderComponent />
-    <Image src={require('../assets/images/header.jpg')} />
     <View padding='nano'>
         <View marginBottom='small' marginTop='small'>
             <Text fontSize='big' color='secondary' fontWeight='bold'>Olá!</Text>
