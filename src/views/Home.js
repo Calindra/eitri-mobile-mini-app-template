@@ -1,21 +1,9 @@
-import Eitri from "eitri-app-client";
+import Ame from "ame-super-app-client";
 
 export default class Home {
-  state = {
-    links: [
-      {
-        title: "About",
-        subtitle: "Última versão dos componentes",
-        to: "/About",
-      },
-      {
-        title: "More",
-        subtitle: "Mais detalhes sobre os componentes",
-        to: "/More",
-      }
-    ]
-  };
-  navigateTo = (item) => {
-    Eitri.navigation.navigate(item.to);
-  };
+
+  async componentDidMount() {
+    console.log("Esta é uma mensagem de Eitri")
+  }
+
 }

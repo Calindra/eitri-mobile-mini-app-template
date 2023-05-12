@@ -1,8 +1,12 @@
 <Window>
-	<View>
-    <Illustration height={200} image={require('../assets/images/icon_eitri.svg')}/>
-    <Header textAlign="center">Boilerplate Mini App</Header>
-    <Spacing size="lg" />
-    <ListView items={this.state.links} onItemSelect={this.navigateTo} />
-  </View>
+    <HeaderComponent />
+    <Image src={require('../assets/images/header.jpg')} />
+    <View padding='nano'>
+        <View marginBottom='small' marginTop='small'>
+            <Text fontSize='big' color='secondary' fontWeight='bold'>Olá!</Text>
+        </View>
+        <View marginBottom='small' marginTop='small'>
+            <Text fontSize='medium' color='secondary' fontWeight='bold'>Esta é uma maneira moderna de solucionar problemas.</Text>
+        </View>
+    </View>
 </Window>
