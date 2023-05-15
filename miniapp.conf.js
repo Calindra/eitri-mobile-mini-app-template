@@ -33,7 +33,7 @@ module.exports = {
      * Aqui nesta linha você determina a versão da biblioteca de componentes que você irá utilizar.
      * Mais informações em: https://eitri-app-components.calindra.com.br/docs/estrutura/
      */    
-    "eitri-app-components": "https://eitri.s3.amazonaws.com/eitri-app-components-0.1.0.tgz",
+    "eitri-app-components": "https://eitri.s3.amazonaws.com/eitri-app-components-0.1.1.tgz",
     //"ame-miniapp-components": "2.6.1",
         
     /**
