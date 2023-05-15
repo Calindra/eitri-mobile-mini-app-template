@@ -32,7 +32,7 @@ module.exports = {
     /**
      * Aqui nesta linha você determina a versão da biblioteca de componentes que você irá utilizar.
      */    
-    "eitri-app-components": "https://eitri.s3.amazonaws.com/eitri-app-components-0.1.1.tgz",
+    "eitri-app-components": "https://eitri.s3.amazonaws.com/eitri-app-components-0.1.2.tgz",
         
     /**
      * Aqui nesta linha você determina a versão do super-app-client que você irá utilizar.
