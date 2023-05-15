@@ -1,6 +1,6 @@
 /**
  * Template básico para criação de aplicações com eitri.
-*/
+ */
 
 // Importando o módulo de comunicação com o Super-APP
 import Eitri from "eitri-app-client";
