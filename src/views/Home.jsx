@@ -8,7 +8,6 @@
         componentes que podem ser reaproveitados nesta aplicação.
     */}
     <HeaderComponent />
-
     {/* 
         Aqui abaixo você está vendo uma tag de imagem, você pode utilizar require para imagens locais
         do projeto ou pode utilizar um endereço https para onde esteja a imagem.
@@ -21,7 +20,10 @@
         <Text fontSize='medium' color='neutral-700'>Uma maneira moderna de solucionar problemas de escalabilidade e velocidade de desenvolvimento.</Text>
     </View>
     <View paddingHorizontal='small' paddingTop='small'>
+        <Text fontSize='small' color='neutral-700'>Ao apertar o botão abaixo você fará um request HTTP e irá exibir o resultado desse request no log do terminal.</Text>
+    </View>
+    <View paddingHorizontal='small' paddingTop='nano'>
         {/* O toque no botão está registrado com a função que foi descrita em Home.js */}
-        <Button label="Aperte-me" onPress={this.makeRequest} />
+        <Button label="Realizar request" onPress={this.makeRequest} />
     </View>
 </Window>
