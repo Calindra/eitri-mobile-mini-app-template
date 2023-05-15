@@ -31,21 +31,16 @@ module.exports = {
     },
     /**
      * Aqui nesta linha você determina a versão da biblioteca de componentes que você irá utilizar.
-     * Mais informações em: https://eitri-app-components.calindra.com.br/docs/estrutura/
      */    
-    "eitri-app-components": "https://eitri.s3.amazonaws.com/eitri-app-components-0.1.0.tgz",
-    //"ame-miniapp-components": "2.6.1",
+    "eitri-app-components": "https://eitri.s3.amazonaws.com/eitri-app-components-0.1.1.tgz",
         
     /**
      * Aqui nesta linha você determina a versão do super-app-client que você irá utilizar.
-     * Mais informações em: https://super-app-client.calindra.com.br/docs/eitri-app-client/
      */
     "eitri-app-client": "https://eitri.s3.amazonaws.com/eitri-app-client-0.8.0.tgz",
-    //"ame-super-app-client": "2.9.0",
     
     /**
      * Aqui nesta linha você determina a versão do sdk-support que você irá utilizar.
-     * Mais informações em: https://eitri-sdk-support.calindra.com.br/
      */
     //"eitri-app-sdk-support": "1.0.0",
   }
