@@ -1,4 +1,4 @@
-<Window>
+<Window topInset bottomInset>
     {/* 
         Todas as Views precisam ter a tag <Window> como primeira tag, dessa forma eitri saberá o que
         está sendo feito. 
