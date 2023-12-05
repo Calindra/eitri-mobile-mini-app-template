@@ -1,28 +1,15 @@
 <Window topInset bottomInset backgroundColor="primary-500" statusBarTextColor="white">
     <View>
-        {/* 
-        Todas as Views precisam ter a tag <Window> como primeira tag, dessa forma eitri saberá o que
-        está sendo feito. 
-        
-        Logo abaixo você está vendo um componente chamado HeaderComponent, na verdade ele é um 
-        componente feito dentro deste próprio projeto, na pasta components você pode criar pequenos
-        componentes que podem ser reaproveitados nesta aplicação.
-    */}
         <HeaderComponent />
-        {/* 
-        Aqui abaixo você está vendo uma tag de imagem, você pode utilizar require para imagens locais
-        do projeto ou pode utilizar um endereço https para onde esteja a imagem.
-    */}
-        <Image width="100%" height={200} src="https://loremflickr.com/1280/720/abstract" />
+        <Image width="100%" height={200} src="https://loremflickr.com/1280/600/car" />
         <View paddingHorizontal='small' paddingTop='nano'>
-            <Text fontSize='big' color='primary-700' fontWeight='bold'>Meu Eitri-App</Text>
+            <Text fontSize='big' fontWeight='bold'>My Eitri-App</Text>
         </View>
-        <Text wide paddingHorizontal='small' paddingTop='small' fontSize='small' color='neutral-500'>Uma maneira moderna de solucionar problemas de escalabilidade e velocidade de desenvolvimento.</Text>
-        <Text wide paddingHorizontal='small' paddingTop='nano' fontSize='small' color='neutral-500'>A imagem acima é uma imagem aleatória obtida via http.</Text>
-        <Text wide paddingHorizontal='small' paddingTop='nano' fontSize='small' color='neutral-500'>Ao apertar o botão abaixo você fará um request HTTP e irá exibir o resultado desse request no log do terminal.</Text>
+        <Text wide paddingHorizontal='small' paddingTop='small' fontSize='small'>A modern way to address scalability and development speed issues.</Text>
+        <Text wide paddingHorizontal='small' paddingTop='nano' fontSize='small'>The image above is a random image obtained via HTTP.</Text>
+        <Text wide paddingHorizontal='small' paddingTop='nano' fontSize='small'>By pressing the button below, you will make an HTTP request, and the result of this request will be displayed in your terminal.</Text>
         <View paddingHorizontal='small' paddingTop='small'>
-            {/* O toque no botão está registrado com a função que foi descrita em Home.js */}
-            <Button wide label="Realizar request" onPress={this.makeRequest} />
+            <Button wide label="Make Request" onPress={this.makeRequest} />
         </View>
     </View>
 </Window>
