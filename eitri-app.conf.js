@@ -1,48 +1,40 @@
 module.exports = {
   /**
-   * Nome do seu mini app
-   * O nome será utilizado para identificar o seu mini-app dos demais já existentes.
+   * Name of your mini app
+   * The name will be used to identify your mini-app among the others already existing.
    */
-  "name": "Meu Mini App",
+  "name": "My Eitri App",
   /**
-   * Esta propriedade define o título do mini-app na barra de título do aplicativo
+   * This property sets the title of the mini app in the application's title bar.
    */
-  "title": "Meu super mini app",
+  "title": "My Super Eitri App",
   /**
-   * Utilize aqui um identificador único que seja de fácil leitura.
-   * Não utilize espaços em branco.
-   * Sugerimos utilizar um domínio reverso como slug.
+   * Use a unique and easy-to-read identifier here.
+   * Do not use whitespace.
+   * We suggest using a reverse domain as the slug.
    */
-  "slug": "br.com.minhaempresa.vendas",
+  "slug": "com.mycompany.sales",
   /**
-   * Aqui você pode incluir a versão do seu mini-app.
-   * Lembre-se que você só poderá enviar 1 versão por vez para publicação.
+   * Here you can include the version of your mini app.
+   * Remember that you can only submit one version at a time for publication.
    */
   "version": "0.1.0",
   /**
-   * Insira os dados da sua empresa,  (Nome da empresa pode conter espaços)
-   * Não esqueça também do seu email de propriedade do mini-app.
+   * Enter your company's data (Company name may contain spaces)
+   * Don't forget your mini app's ownership email as well.
    */
   "organization": {
-    "name": "Minha Empresa",
+    "name": "My Company",
     "owner": {
-      "email": "seuemail@suaempresa.com"
+      "email": "youremail@yourcompany.com"
     },
   },
   /**
-   * Aqui nesta linha você determina a versão da biblioteca de componentes que você irá utilizar.
+   * Here on this line, you determine the version of the Luminus component library you will use.
    */
-  "eitri-app-components": "1.14.0",
+  "eitri-luminus": "1.22.8",
   /**
-   * Aqui nesta linha você determina a versão do super-app-client que você irá utilizar.
+   * Here on this line, you determine the version of the Bifrost API you will use.
    */
-  "eitri-app-client": "1.5.0",
-  /**
-     * Aqui nesta linha você determina a versão da biblioteca comum que você irá utilizar.
-     */
-  "eitri-commons": "0.0.19",
-  /**
-   * Aqui nesta linha você determina a versão do sdk-support que você irá utilizar.
-   */
-  //"eitri-app-sdk-support": "1.0.0",
+  "eitri-bifrost": "1.0.0",
 }
