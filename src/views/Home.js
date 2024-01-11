@@ -1,41 +1,41 @@
 /**
- * Template básico para criação de aplicações com eitri.
+ * Basic template for creating applications with Eitri.
  */
 
-// Importando o módulo de comunicação com o Super-APP
-import Eitri from "eitri-app-client";
+// Importing the communication module with the Host App
+import Eitri from "eitri-bifrost";
 
-// Para cada View você pode criar uma classe com o nome da View
+// For each View, you can create a class with the name of the View
 export default class Home {
 
   /**
-   * Assim como no React, você também pode incluir funcionalidades a partir do momento
-   * em que a tela terminar de ser renderizada. Bastando utilizar componentDidMount.
+   * Just like in React, you can also include functionalities once
+   * the screen has finished rendering. Just use componentDidMount.
    */
   async componentDidMount() {
 
     /**
-     * Como aqui estamos usando javascript, você pode utilizar mensagens de log como essa
-     * abaixo e acompanhar o log através do seu terminal.
+     * Since we are using JavaScript here, you can use log messages like this
+     * one below and track the log through your terminal.
      */
-    console.log("Esta é uma mensagem de Eitri")
+    console.log("This is an Eitri message");
   }
-  
+
   /**
-   * Você também pode criar funções na raiz da classe da página. Estas funções podem ser
-   * atribuídas no arquivo de Views.
+   * You can also create functions at the root of the page class. These functions can be
+   * assigned in the Views file.
    */
   makeRequest = async () => {
 
     /**
-     * De forma semelhante ao que fazemos com a biblioteca Axios, você também pode realizar
-     * uma chamada HTTP para uma API. Neste exemplo estamos apenas carregando uma lista de 
-     * produtos em formato JSON para ser utilizada mais tarde.
+     * Similar to what we do with the Axios library, you can also make
+     * an HTTP call to an API. In this example, we are just loading a list of
+     * products in JSON format to be used later.
      */
-    const { data } = await Eitri.http.get('https://calindra.tech/eitri/product_list.json')
+    const { data } = await Eitri.http.get('https://calindra.tech/eitri/product_list.json');
 
-    
-    console.log("Dados obtidos em chamada HTTP:", data)
+
+    console.log("Data obtained in HTTP call:", data);
   }
 
 }

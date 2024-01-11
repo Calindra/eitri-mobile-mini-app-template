@@ -1,4 +1,4 @@
-import Eitri from "eitri-app-client";
+import Eitri from "eitri-bifrost";
 export default class HeaderComponent {
     onBackClick = () => { 
         Eitri.close();
