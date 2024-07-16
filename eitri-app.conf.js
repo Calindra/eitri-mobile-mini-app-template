@@ -37,10 +37,11 @@ module.exports = {
    * Here on this line, you determine the version of the Bifrost API you will use.
    */
   "eitri-bifrost": "1.4.0",
+  "eitri-commons": "1.0.0",
 
   /**
    * Enables Eitri-App to utilize unit testing functionality.
    * Note: with "type":"module" activated, imports must be done with "import" instead of "require".
    */
-  "type":"module",
+  "type": "module",
 }
