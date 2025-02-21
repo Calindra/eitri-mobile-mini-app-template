@@ -6,7 +6,7 @@ export default function GenericError(props) {
     const {
         title,
         bodyText,
-        buttonLabel,
+        retryButtonLabel,
         onRetryPress = null
     } = props
 
@@ -77,7 +77,7 @@ export default function GenericError(props) {
                     padding="extra-small"
                     justifyContent="center"
                 >
-                    <Text textAlign='center' color="neutral-100">{buttonLabel || "Tentar novamente"}</Text>
+                    <Text textAlign='center' color="neutral-100">{retryButtonLabel || "Tentar novamente"}</Text>
                 </Touchable>
             </View>
         </View>
