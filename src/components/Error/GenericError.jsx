@@ -59,7 +59,7 @@ export default function GenericError(props) {
                         width='30%'
                         height='15vh'
                     >
-                        <Text fontSize="jumbo" fontWeight='bold' textAlign='center'>
+                        <Text customFontSize='90px' fontWeight='bold' textAlign='center'>
                             !
                         </Text>
                     </View>
